@@ -1,0 +1,29 @@
+{
+    "digits":{
+        "arch": "LeNet",
+        "Tmax": 500,
+        "sigma_d": 0.2,
+        "sigma_beta": 0.5,
+        "sigma_gamma": 0.5,
+        "Lmax":10,
+        "alpha":0.01,
+        "momentum":0.9,
+        "batch_size": 64,
+        "scheduler": "cosine",
+        "source": "mnist"
+    },
+
+    "pacs":{
+        "arch":"ResNet18",
+        "Tmax": 50,
+        "sigma_d": 0.5,
+        "sigma_beta": 0.5,
+        "sigma_gamma": 0.5,
+        "Lmax":10,
+        "alpha":0.01,
+        "momentum":0.9,
+        "batch_size": 64,
+        "scheduler": "cosine",
+        "source": "cartoon"
+    }
+}
