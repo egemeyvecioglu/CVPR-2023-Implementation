@@ -1,4 +1,7 @@
 # Progressive Random Convolutions for Single Domain Generalization
+
+> **Notice:** This repository is not the official implementation of the paper. While every effort has been made to reproduce the described method, there is no guarantee that the implementation will work exactly as intended or achieve the same results as the original work.
+
 This readme file is an outcome of the CENG502 (Spring 2024) project for reproducing a paper without an implementation. See CENG502 (Spring 20224) Project List for a complete list of all paper reproduction projects. 
 # 1. Introduction
 __Single domain generalization (SDG) [1]__ in visual tasks aims to enable a model trained on a single source domain to perform well on unseen target domains. This can significantly reduce data collection and labeling costs and allow the model to be adapted to a wider range of applications. 
